@@ -2,6 +2,9 @@ public class UsefulLibrary{
 	public static void main(String[] args) {
 	}
 	public void tools(){
+		int[] x = new int[10];
+		int[] y = {1,2,3};
+
 		StringBuilder sb = new StringBuilder();
 		sb.append("adsfsafsd");
 		sb.insert(0, "sdssds");
