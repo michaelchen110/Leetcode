@@ -2,6 +2,13 @@ public class usefullibrary{
 	public static void main(String[] args) {
 	}
 	public void tools(){
+	
+        Scanner in = new Scanner(System.in);
+        while(in.hasNext()) {
+        	int a = in.nextInt();
+        	int b = in.nextInt();
+        	System.out.println(a + b);
+        }
 
 		int[] x = new int[10];//call by reference
 		int[] y = {1,2,3};
@@ -78,6 +85,7 @@ public class usefullibrary{
 
 		int a = Integer.parseInt(String s);
 		String s = Integer.toString(int i);
+		String s = i+"":
 
 		obj1 == obj2; //reference equality
 		obj1.equals(obj2); //value equality
